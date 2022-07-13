@@ -4,10 +4,10 @@ function Footer(): JSX.Element {
     return (
         <>
             <h3>Credit for photos to:</h3>
-            <PhotoCredit />
-            <PhotoCredit />
-            <PhotoCredit />
-            <PhotoCredit />
+            <PhotoCredit credit={""}/>
+            <PhotoCredit credit={""}/>
+            <PhotoCredit credit={""}/>
+            <PhotoCredit credit={""}/>
         </>
     );
 }
