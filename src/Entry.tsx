@@ -14,7 +14,7 @@ function Entry(props: EntryStructure): JSX.Element {
             <h3>{props.name}</h3>
             <h3>{props.country}</h3>
             <img src="{props.image}" alt="A photo of {props.name}" />
-            <a href="{props.map}">Map Link</a>
+            <a href="{props.map}"> Map Link</a>
             <p>{props.description}</p>
         </>
     )
