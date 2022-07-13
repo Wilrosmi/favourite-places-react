@@ -2,8 +2,8 @@ interface EntryStructure {
     title: string;
     name: string;
     country: string;
-    image: URL;
-    map: URL;
+    image: string;
+    map: string;
     description: string;
 }
 
