@@ -3,7 +3,7 @@ interface Photo {
 }
 
 function PhotoCredit(props: Photo): JSX.Element {
-  return <p><small>Credit to {props.credit} for photo use</small></p>;
+  return <li><small>{props.credit}</small></li>;
 }
 
 export default PhotoCredit;
