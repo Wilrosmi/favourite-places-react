@@ -1,13 +1,6 @@
-interface EntryStructure {
-  title: string;
-  name: string;
-  country: string;
-  image: string;
-  map: string;
-  description: string;
-}
+import Place from "./placeInterface";
 
-function Entry(props: EntryStructure): JSX.Element {
+function Entry(props: Place): JSX.Element {
   return (
     <>
       <h2>{props.title}</h2>
