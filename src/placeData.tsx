@@ -1,11 +1,4 @@
-interface Place {
-    title: string;
-    name: string;
-    country: string;
-    image: string;
-    map: string;
-    description: string;
-  }
+import Place from "./placeInterface";
 
 const placeArray: Place[] = [
     {

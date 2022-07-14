@@ -1,13 +1,5 @@
 import Entry from "./Entry"
-
-interface Place {
-    title: string;
-    name: string;
-    country: string;
-    image: string;
-    map: string;
-    description: string;
-  }
+import Place from "./placeInterface";
 
 function mapFunction(obj: Place): JSX.Element{
     return (
