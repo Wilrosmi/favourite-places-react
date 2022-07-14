@@ -1,4 +1,3 @@
-import Entry from "./Entry";
 import mapFunction from "./mapFunction";
 import Place from "./placeInterface";
 
