@@ -7,7 +7,7 @@ function App(): JSX.Element {
   return (
     <>
       <Header />
-      <MainContent arr={placeArray}/>
+      <MainContent arr={placeArray} />
       <Footer />
     </>
   );

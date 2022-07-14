@@ -1,17 +1,13 @@
 import Entry from "./Entry";
-import mapFunction from "./mapFunction"
-import Place from "./placeInterface"
+import mapFunction from "./mapFunction";
+import Place from "./placeInterface";
 
 interface Prop {
-  arr: Place[]
+  arr: Place[];
 }
 
 function MainContent(props: Prop): JSX.Element {
-  return (
-    <>
-      {props.arr.map(mapFunction)}
-    </>
-  );
+  return <>{props.arr.map(mapFunction)}</>;
 }
 
 export default MainContent;
